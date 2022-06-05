@@ -1,15 +1,19 @@
 #include <stdio.h>
 /**
- * main - my entry point
- * Description: print single digits from 0 to 10
+ * main - main block
+ * Description: Use `putchar` to print all letters but the letter 'q' and 'e'.
  * Return: 0
  */
 int main(void)
 {
-	int num;
+	char c = 'a';
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	while (c <= 'z')
+	{
+		if (c != 'q' && c != 'e')
+			putchar(c);
+		c++;
+	}
 	putchar('\n');
 
 	return (0);
