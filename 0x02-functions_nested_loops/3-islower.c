@@ -5,7 +5,7 @@ include "main.h"
  * Description:is it lowercase?
  * Return: 1 or 0
  */
-int _islower(int c)
+int _islower(char c)
 {
 	if (c >= 'a' && c<= 'z')
 	{
