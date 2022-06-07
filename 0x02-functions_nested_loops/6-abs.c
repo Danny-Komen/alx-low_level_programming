@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*_abs(int) - ...
+/*_abs - ...
  * Description: ...
  * @x: ..
  */
@@ -12,6 +12,6 @@ int _abs(int x)
 	}
 	else
 	{
-		return (-1*x);
+		return (-1 * x);
 	}
 }
