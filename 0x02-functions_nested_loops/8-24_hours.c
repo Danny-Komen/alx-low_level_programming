@@ -1,22 +1,23 @@
 #include "main.h"
-
-/*
- * jack_bauer - ..
- * Description: time
- * Returns nothing
+/**
+ * jack_bauer - entry point
+ * Description: prints al the minute of the day starting from 00:00 to 23:59
+ * Return: nothing to return
  */
 void jack_bauer(void)
 {
-	int mn;
-	int hr;
+	int x, y;
 
-	for (hr = 00; hr <= 23; hr++)
+	for (x = 0; x < 24; x++)
 	{
-		for (mn = 00; mn <= 59; mn++)
+		for (y = 0; y < 60; y++)
 		{
-			_putchar(hr);
+			_putchar((x / 10) + '0');
+			_putchar((x % 10) + '0');
 			_putchar(':');
-			_putchar(mn);
+			_putchar((y / 10) + '0');
+			_putchar((y % 10) + '0');
+			_putchar('\n');
 		}
 	}
 }
