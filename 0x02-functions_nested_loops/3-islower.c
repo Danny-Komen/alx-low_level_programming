@@ -3,8 +3,7 @@
 /**
  * _islower - check if its lower case
  * Description:is it lowercase?
- * c - a character type parameter
- * Description: this id the character we are testing
+ * @c: a character type parameter
  * Return: 1 or 0
  */
 int _islower(char c)
