@@ -2,8 +2,8 @@
 
 /*
  * print_alphabet_x10 - print the alphabets 10 times
- *Description: prints the a-z 10 times
- *return - no return
+ * Description: prints the a-z 10 times
+ * Returns nothing
  */
 void print_alphabet_x10(void)
 {
