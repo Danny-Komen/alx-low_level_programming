@@ -1,9 +1,9 @@
 #include "main.h"
 
-/* 
- * _abs - ..bsolute.
- * Description: ...
- * @x: ..
+/**
+ * _abs - absolute value
+ * @x: the input
+ * Return: integer value
  */
 int _abs(int x)
 {
