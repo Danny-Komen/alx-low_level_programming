@@ -5,20 +5,20 @@
  * @x: the input
  * Return: an integer value
  */
-int print_last_digit(int x)
+int print_last_digit(int b)
 {
-	int y;
-
-	if (x = INT_MIN)
+	if (b < 0)
 	{
-		_putchar(0 + '0');
-		return (0);
+		b = -(b % 10);
 	}
-	if (x < 0)
+	else if (b > 0)
 	{
-		x = -1 * x;
+		b = b % 10;
 	}
-	y = x % 10;
-	_putchar(y + '0');
-	return (y);
+	else
+	{
+		b = 0;
+	}
+	_putchar(b + '0');
+	return (b);
 }
