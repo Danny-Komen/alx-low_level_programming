@@ -1,6 +1,7 @@
 #include "main.h"
 
-/*_abs - ...
+/* 
+ * _abs - ..bsolute.
  * Description: ...
  * @x: ..
  */
