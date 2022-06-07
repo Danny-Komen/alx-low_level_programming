@@ -7,5 +7,9 @@
  */
 int print_last_digit(int x)
 {
-	return (x % 10);
+	int y;
+
+	y = x % 10;
+	_getchar(y)
+	return (y);
 }	
