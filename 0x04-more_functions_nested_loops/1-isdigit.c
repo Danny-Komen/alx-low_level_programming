@@ -5,7 +5,7 @@
  * @c: a character type parameter
  * Return: 1 or 0
  */
-int _isdigit(char c)
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
