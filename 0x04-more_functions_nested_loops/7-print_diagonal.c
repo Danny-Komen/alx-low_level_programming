@@ -1,16 +1,21 @@
+#include <stdio.h>
 #include "main.h"
- /**
-  * print_diagonal - print diagonals
-  * @n: number of lines
-  */
+/**
+ * print_diagonal - draw a diagonal line on terminal
+ * @n: number of times character will be repeated
+ */
 void print_diagonal(int n)
 {
-	if (n > 0)
-	{
-		int a;
-		int b;
+	int a;
+	int b;
 
-		for(a = 0; a< n; a++)
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (a = 1; a <= n; a++)
 		{
 			for (b = 1; b <= a; b++)
 			{
@@ -23,11 +28,7 @@ void print_diagonal(int n)
 					_putchar(32);
 				}
 			}
-			_putchar('\n');
+			printf("\n");
 		}
-	}
-	else
-	{
-		_putchar('\n');
 	}
 }
