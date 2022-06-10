@@ -2,7 +2,8 @@
 
 /**
  * print_line - prints straight line
- */
+ *@n: length
+ * /
 void print_line(int n)
 {
 	if (n > 0)
