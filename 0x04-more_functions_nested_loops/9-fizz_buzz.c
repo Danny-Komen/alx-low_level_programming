@@ -1,8 +1,11 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - fizzbuzz code
+ * fizz: if divisible by 3
+ * buzz: if divisible by 5
+ * fizzbuzz: divisible by 3 & 5
  * Return: 0
  */
 int main(void)
@@ -21,7 +24,7 @@ int main(void)
 		}
 		else if ((i % 5) == 0)
 		{
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else
 		{
