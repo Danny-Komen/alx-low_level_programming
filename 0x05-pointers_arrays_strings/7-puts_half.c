@@ -30,9 +30,9 @@ void puts_half(char *str)
 
 	str = str + n;
 
-	while (*str! = '\0')
+	while (*str != '\0')
 	{
 		_putchar(*str);
-		str++
+		str++;
 	}
 }
