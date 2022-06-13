@@ -18,10 +18,10 @@ void puts_half(char *str)
 	}
 
 	str = str - size;
-	
+
 	if ((size % 2) == 0)
 	{
-		n = size / 2;	
+		n = size / 2;
 	}
 	else
 	{
@@ -35,5 +35,5 @@ void puts_half(char *str)
 		_putchar(*str);
 		str++;
 	}
-	_putchar('n');
+	_putchar('\n');
 }
