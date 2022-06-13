@@ -2,7 +2,7 @@
 
 /**
  * puts_half - prints half of the string
- * @str - the string to be printed
+ * @str: the string to be printed
  */
 
 void puts_half(char *str)
@@ -26,6 +26,7 @@ void puts_half(char *str)
 	else
 	{
 		n = (size - 1) / 2;
+		n++;
 	}
 
 	str = str + n;
