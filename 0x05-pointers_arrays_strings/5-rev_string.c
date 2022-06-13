@@ -25,7 +25,9 @@ void rev_string(char *s)
 
 	for (i = w; i > 0; i--)
 	{
-		arr[i] = q;
+		arr[i] = *q;
 		q++;
 	}
+
+	*s = arr[];
 }	
