@@ -32,7 +32,8 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		if (l >= n)
 		{
-			retutn (*d);
+			d = d - i;
+			return (*d);
 		}
 
 		*d = *scr;
