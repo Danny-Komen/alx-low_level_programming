@@ -21,6 +21,10 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 
+	*d = " ";
+	d++;
+	i++;
+
 	while (*src != NULL)
 	{
 		*d = *scr;
